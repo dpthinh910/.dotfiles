@@ -39,3 +39,16 @@ luac.out
 *.x86_64
 *.hex
 
+# Other config files
+**/automatic_backups/
+**/plugged/
+**/undo/
+
+Session.vim
+.DS_Store
+.netrwhist
+
+nvim/.config/nvim/plugin/packer_compiled.lua
+nvim/.config/nvim/plugin
+nvim/.config/nvim/spell
+

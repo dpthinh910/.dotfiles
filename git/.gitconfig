@@ -1,0 +1,52 @@
+[user]
+    name = Thinh Duong
+    email = duongphucthinh910@gmail.com
+[core]
+    pager = diff-so-fancy | less --tabs=4 -RFX
+    autocrlf = input
+    autolf = true
+    eol = lf
+[alias]
+    s = status
+    m = commit -m
+    co = checkout
+    p = pull
+    pp = push
+    pf = push --force-with-lease
+    ca = commit -v --amend
+    cae = commit -v --amend --no-edit
+    cb = checkout -b
+    ba = branch -vv
+    bd = branch -d
+    bdr = push -d
+    sh = stash -u
+    sp = stash pop
+    sl = stash list
+    f = fetch
+    a = add .
+    l = log --graph --oneline
+    la = log --graph --oneline --stat
+    ri = rebase -i
+    ra = rebase --abort
+    rc = rebase --continue
+    fp = fetch --prune
+    rn = branch -m
+    wt = worktree
+    wtd = config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
+[interactive]
+    diffFilter = diff-so-fancy --patch
+[color]
+    ui = true
+[color "diff-highlight"]
+    oldNormal = red bold
+    oldHighlight = red bold 52
+    newNormal = green bold
+    newHighlight = green bold 22
+[color "diff"]
+    meta = 11
+    frag = magenta bold
+    func = 146 bold
+    commit = yello bold
+    old = red bold
+    new = green bold
+    whitespace = red reverse

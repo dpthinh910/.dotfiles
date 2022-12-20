@@ -1,0 +1,30 @@
+gui:
+  theme:
+    activeBorderColor:
+      - blue
+      - bold
+    inactiveBorderColor:
+      - white
+    optionsTextColor:
+      - blue
+    selectedLineBgColor:
+      - default # set to `default` to have no background color
+    selectedRangeBgColor:
+      - default
+    cherryPickedCommitBgColor:
+      - cyan
+    cherryPickedCommitFgColor:
+      - blue
+    unstagedChangesColor:
+      - red
+
+showFileTree: true
+showListFooter: false
+showRandomTip: false
+showBottomLine: false
+showCommandLog: true
+showIcons: true
+
+disableStartupPopups: true
+notARepository: 'skip'
+editCommand: 'nvim'
