@@ -17,11 +17,6 @@ export PATH="$PATH:$HOME/nvim-osx64/bin"
 # Disable certificate check
 export NODE_TLS_REJECT_UNAUTHORIZED=0
 
-#rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-export PATH="$PATH:$HOME/.rbenv/versions/2.6.5/bin"
-
 # artifactory is on aur, add it to proxy exclusions
 export no_proxy=artifactory.ext.national.com.au
 export NO_PROXY=artifactory.ext.national.com.au
