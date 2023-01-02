@@ -11,6 +11,7 @@ alias lib="cd ~/Library"
 alias w="cd ~/workspace"
 alias dt="cd ~/Desktop"
 alias doc="cd ~/Documents"
+alias dev="cd ~/Developer"
 
 # open code editor
 alias c="code"
