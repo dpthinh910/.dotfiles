@@ -31,7 +31,7 @@ zstyle ':vcs_info:git:*' formats '(%b%u%c)'
 alias gst="git status"
 
 alias unstage="git restore --staged ."
-alias Ig="lazygit"
+alias lg="lazygit"
 
 alias restore="git restore"
 

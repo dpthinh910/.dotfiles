@@ -15,11 +15,11 @@ export PATH="$PATH:$HOME/lib"
 export PATH="$PATH:$HOME/nvim-osx64/bin"
 
 # Disable certificate check
-export NODE_TLS_REJECT_UNAUTHORIZED=0
+# export NODE_TLS_REJECT_UNAUTHORIZED=0
 
 # artifactory is on aur, add it to proxy exclusions
-export no_proxy=artifactory.ext.national.com.au
-export NO_PROXY=artifactory.ext.national.com.au
+# export no_proxy=artifactory.ext.national.com.au
+# export NO_PROXY=artifactory.ext.national.com.au
 
 # Set NAB proxies, not required when on ZScaler VPN
 # export HTTPS_PROXY=http://proxy.nab.com.au:10091

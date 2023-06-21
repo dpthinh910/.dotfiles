@@ -8,10 +8,11 @@ alias -- -="cd -"
 # directories
 alias dot="cd ~/.dotfiles"
 alias lib="cd ~/Library"
-alias w="cd ~/workspace"
+alias w="cd ~/Developer/Projects"
 alias dt="cd ~/Desktop"
 alias doc="cd ~/Documents"
 alias dev="cd ~/Developer"
+alias nab="cd ~/Developer/NAB"
 
 # open code editor
 alias c="code"
